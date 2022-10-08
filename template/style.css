@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-color: #e26e70;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
