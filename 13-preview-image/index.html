@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Custome Slider</title>
+    <title>Preview Image</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -15,13 +15,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Custome Slider</h1>
-    <div class="range">
-      <div class="process">
-        <span>100%</span>
-      </div>
+    <div class="container">
+      <span class="error"></span>
+      <label for="mypicture" class="preview">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <span>Upload Image Preview</span>
+      </label>
+      <input type="file" hidden id="mypicture" />
     </div>
-    <input type="range" id="slider" value="" min="-20" max="20" />
     <script src="./app.js"></script>
   </body>
 </html>
